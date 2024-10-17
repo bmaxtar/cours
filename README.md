@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# Bienvenue dans votre application Expo 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ce projet utilise [Expo](https://expo.dev) et a été créé avec [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). Ce projet est conçu avec TypeScript et utilise `expo-router` pour une navigation efficace entre les écrans.
 
-## Get started
+## Choix technologique
 
-1. Install dependencies
+### React Native
+
+React Native est un framework populaire pour développer des applications mobiles. Il permet d'utiliser JavaScript et React pour créer des applications natives sur iOS et Android. Cela permet de partager une base de code unique tout en offrant une expérience utilisateur native.
+
+### Expo
+
+Expo facilite le développement avec React Native en fournissant un ensemble d'outils et de services. Il simplifie le processus d'installation, de configuration et de déploiement des applications. Avec Expo, vous pouvez tester votre application sur des appareils réels sans passer par le processus compliqué de configuration des environnements de développement natifs.
+
+### TypeScript
+
+TypeScript est un sur-ensemble de JavaScript qui ajoute une typage statique. Cela aide à réduire les erreurs courantes et améliore la lisibilité du code. En utilisant TypeScript, nous garantissons une meilleure maintenabilité et une expérience de développement plus agréable.
+
+### expo-router
+
+`expo-router` est utilisé pour la gestion de la navigation dans l'application. Il facilite la création d'une structure de navigation basée sur des fichiers, ce qui permet de gérer les routes et les écrans de manière intuitive. Cette approche améliore l'organisation du projet et simplifie la navigation entre les différentes parties de l'application.
+
+## Comment récupérer le projet et le lancer en local
+
+1. **Clonez le projet**
+   Utilisez Git pour cloner le dépôt :
 
    ```bash
-   npm install
+   git clone <URL_DU_DEPOT>
+   cd <NOM_DU_REPOSITORY>
    ```
 
-2. Start the app
+2.**Installez les dépendances**
 
-   ```bash
-    npx expo start
-   ```
+npm install ou yarn
 
-In the output, you'll find options to open the app in a
+3.**Démarrez l'application**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+npx expo start ou yarn start ou npm start
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**Dans la sortie, vous trouverez des options pour ouvrir l'application dans un**
+. développement build
+. émulateur Android
+. simulateur iOS
+. appareil physique
+**Choisissez l'option qui vous convient le mieux pour tester votre application.**
 
-## Get a fresh project
+**Expo Go, un environnement limité pour essayer le développement d'applications avec Expo
+Vous pouvez commencer à développer en modifiant les fichiers dans le répertoire app. Ce projet utilise la navigation basée sur des fichiers.**
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Obtenir un projet vierge
+Lorsque vous êtes prêt, exécutez :
